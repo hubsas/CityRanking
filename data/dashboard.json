@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T13:00:23.018316+00:00",
+  "updated": "2026-11-21T12:40:41.180388+00:00",
   "weights": {
     "weather": 0.25,
     "pois": 0.3,
@@ -15,39 +15,18 @@
       "lat": 52.52,
       "lng": 13.405,
       "metrics": {
-        "weather": 3.66,
+        "weather": 3.4,
         "pois": 2149,
         "transit": 633,
-        "air": null
-      },
-      "normalized": {
-        "weather": 100.0,
-        "pois": 100.0,
-        "transit": 86.2,
-        "air": 0
-      },
-      "score": 76.5
-    },
-    {
-      "id": "stuttgart",
-      "name": "Stuttgart",
-      "state": "Baden-Württemberg",
-      "population": 632000,
-      "lat": 48.7758,
-      "lng": 9.1829,
-      "metrics": {
-        "weather": 2.99,
-        "pois": 729,
-        "transit": 388,
         "air": 21
       },
       "normalized": {
-        "weather": 63.4,
-        "pois": 21.9,
-        "transit": 35.8,
+        "weather": 90.9,
+        "pois": 100.0,
+        "transit": 86.2,
         "air": 100.0
       },
-      "score": 51.4
+      "score": 94.3
     },
     {
       "id": "muenchen",
@@ -57,39 +36,18 @@
       "lat": 48.1351,
       "lng": 11.582,
       "metrics": {
-        "weather": 3.55,
+        "weather": 3.56,
         "pois": 1899,
         "transit": 214,
-        "air": null
+        "air": 21
       },
       "normalized": {
-        "weather": 94.0,
+        "weather": 100.0,
         "pois": 86.2,
         "transit": 0.0,
-        "air": 0
+        "air": 100.0
       },
-      "score": 49.4
-    },
-    {
-      "id": "hamburg",
-      "name": "Hamburg",
-      "state": "Hamburg",
-      "population": 1902000,
-      "lat": 53.5511,
-      "lng": 9.9937,
-      "metrics": {
-        "weather": 2.4,
-        "pois": 1490,
-        "transit": 409,
-        "air": 29
-      },
-      "normalized": {
-        "weather": 31.1,
-        "pois": 63.8,
-        "transit": 40.1,
-        "air": 60.0
-      },
-      "score": 48.9
+      "score": 70.9
     },
     {
       "id": "frankfurt",
@@ -99,39 +57,18 @@
       "lat": 50.1109,
       "lng": 8.6821,
       "metrics": {
-        "weather": 2.35,
-        "pois": 1496,
+        "weather": 2.58,
+        "pois": 1497,
         "transit": 625,
-        "air": null
+        "air": 31
       },
       "normalized": {
-        "weather": 28.4,
+        "weather": 44.3,
         "pois": 64.1,
         "transit": 84.6,
-        "air": 0
+        "air": 37.5
       },
-      "score": 47.5
-    },
-    {
-      "id": "duesseldorf",
-      "name": "Düsseldorf",
-      "state": "Nordrhein-Westfalen",
-      "population": 631000,
-      "lat": 51.2277,
-      "lng": 6.7735,
-      "metrics": {
-        "weather": 2.04,
-        "pois": 1028,
-        "transit": 700,
-        "air": null
-      },
-      "normalized": {
-        "weather": 11.5,
-        "pois": 38.3,
-        "transit": 100.0,
-        "air": 0
-      },
-      "score": 39.4
+      "score": 59.0
     },
     {
       "id": "leipzig",
@@ -141,18 +78,81 @@
       "lat": 51.3397,
       "lng": 12.3731,
       "metrics": {
-        "weather": 2.53,
+        "weather": 2.59,
         "pois": 699,
         "transit": 492,
-        "air": 36
+        "air": 23
       },
       "normalized": {
-        "weather": 38.3,
+        "weather": 44.9,
         "pois": 20.2,
         "transit": 57.2,
+        "air": 87.5
+      },
+      "score": 49.1
+    },
+    {
+      "id": "duesseldorf",
+      "name": "Düsseldorf",
+      "state": "Nordrhein-Westfalen",
+      "population": 631000,
+      "lat": 51.2277,
+      "lng": 6.7735,
+      "metrics": {
+        "weather": 2.05,
+        "pois": 1028,
+        "transit": 700,
+        "air": 33
+      },
+      "normalized": {
+        "weather": 14.2,
+        "pois": 38.3,
+        "transit": 100.0,
         "air": 25.0
       },
-      "score": 34.9
+      "score": 45.0
+    },
+    {
+      "id": "hamburg",
+      "name": "Hamburg",
+      "state": "Hamburg",
+      "population": 1902000,
+      "lat": 53.5511,
+      "lng": 9.9937,
+      "metrics": {
+        "weather": 2.17,
+        "pois": 1490,
+        "transit": 409,
+        "air": null
+      },
+      "normalized": {
+        "weather": 21.0,
+        "pois": 63.8,
+        "transit": 40.1,
+        "air": 0
+      },
+      "score": 34.4
+    },
+    {
+      "id": "stuttgart",
+      "name": "Stuttgart",
+      "state": "Baden-Württemberg",
+      "population": 632000,
+      "lat": 48.7758,
+      "lng": 9.1829,
+      "metrics": {
+        "weather": 3.11,
+        "pois": 729,
+        "transit": 388,
+        "air": null
+      },
+      "normalized": {
+        "weather": 74.4,
+        "pois": 21.9,
+        "transit": 35.8,
+        "air": 0
+      },
+      "score": 34.1
     },
     {
       "id": "koeln",
@@ -162,18 +162,18 @@
       "lat": 50.9375,
       "lng": 6.9603,
       "metrics": {
-        "weather": 1.83,
+        "weather": 1.8,
         "pois": 1264,
         "transit": 400,
-        "air": 36
+        "air": null
       },
       "normalized": {
         "weather": 0.0,
         "pois": 51.3,
         "transit": 38.3,
-        "air": 25.0
+        "air": 0
       },
-      "score": 30.0
+      "score": 25.0
     },
     {
       "id": "essen",
@@ -183,18 +183,18 @@
       "lat": 51.4556,
       "lng": 7.0116,
       "metrics": {
-        "weather": 2.04,
+        "weather": 2.05,
         "pois": 331,
         "transit": 398,
-        "air": 41
+        "air": 37
       },
       "normalized": {
-        "weather": 11.5,
+        "weather": 14.2,
         "pois": 0.0,
         "transit": 37.9,
         "air": 0.0
       },
-      "score": 12.3
+      "score": 13.0
     },
     {
       "id": "dortmund",
@@ -204,18 +204,18 @@
       "lat": 51.5136,
       "lng": 7.4653,
       "metrics": {
-        "weather": 2.04,
+        "weather": 2.05,
         "pois": 351,
         "transit": 383,
         "air": null
       },
       "normalized": {
-        "weather": 11.5,
+        "weather": 14.2,
         "pois": 1.1,
         "transit": 34.8,
         "air": 0
       },
-      "score": 11.9
+      "score": 12.6
     }
   ]
 }
